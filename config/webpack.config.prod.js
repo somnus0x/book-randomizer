@@ -143,6 +143,14 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+          {
+            test: [/\.woff$/, /\.woff2$/, /\.eot$/, /\.ttf$/],
+            loader: require.resolve('url-loader'),
+            options : {
+              limit : 10000,
+              // name : 'static/media/[name].[ext]'
+            }
+          },
           // Process JS with Babel.
           {
             test: /\.(js|jsx|mjs)$/,

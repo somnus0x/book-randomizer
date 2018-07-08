@@ -4,6 +4,8 @@
   text-align: center;
 }
 
+
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -36,8 +38,23 @@
 
 .bar {
   margin-top: 10px;
-  padding: 10px 10px 10px 10px;
-  border-bottom: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top : 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
   vertical-align: middle;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.bar-grid {
+  border-right: 1px solid grey;
+}
+
+.content-container{
+  text-align: left;
+  line-height: 2;
+  padding-top: 100px;
+  padding-bottom: 50px;
   font-family: 'Libre Baskerville', serif;
 }
