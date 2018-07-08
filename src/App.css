@@ -32,8 +32,24 @@
 }
 
 .logo {
-  width: 50%;
+  width: 60%;
 
+}
+
+.book-cover{
+  float: left;
+  width: 30%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.book-info {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  
 }
 
 .bar {

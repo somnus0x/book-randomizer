@@ -12,6 +12,19 @@ class App extends Component {
         <div className = "container content-container">
           <div className = "row">
               <div className = "col-md-8 offset-md-2">
+              <div className = "book-info">
+              <img src = "https://images-eu.ssl-images-amazon.com/images/I/511FKJbgXjL.jpg" className = "book-cover" />
+                Title : Ender's Game (The Ender Quintet)
+                <br/>Author : Orson Scott Card 
+                <br/>Publisher : Tor Teen
+                <br/> Genre : Science Fiction , Fantasy      
+              </div>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               "I've watched through his eyes, I've listened through his ears, and I tell you he's the one. Or at least as close as we're going to get." 
               <br/>"That's what you said about the brother." 
               <br/>"The brother tested out impossible. For other reasons. Nothing to do with his ability." 

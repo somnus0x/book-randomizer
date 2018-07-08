@@ -6,7 +6,7 @@ class Navbar extends Component {
       <div className="bar">
         <div className="row align-items-center">
           <div className="col-md-2">
-            <img src="/img/logo.png" className="logo" />
+            <img src="/img/logo2.png" className="logo" />
           </div>
           <div className="col-md-6 ">
             <input
